@@ -58,6 +58,25 @@ choice is remembered.
 
 To add a string, add both versions. A missing pair silently shows nothing.
 
+## Keeping it in step with the app
+
+The app changed a great deal after these pages were first written, and pages
+that lag the app are the failure App Review actually looks for. Two of them
+carry hard obligations:
+
+**Terms** must describe any auto-renewable subscription: what it is called, how
+long it runs, what it costs, that payment goes to the Apple Account, that it
+renews unless turned off 24 hours before the period ends, and where to cancel.
+Apple rejects builds that omit this. Section 7 covers it.
+
+**Privacy policy** must list every category of data collected, including the
+optional ones. If a new field appears in the app, it appears here in the same
+release — not the one after.
+
+The other two are softer but still worth keeping honest: Guidelines should
+cover every surface a user can write on, and Support should answer the
+questions the current app actually generates.
+
 ## Before launch
 
 - [ ] Replace `Waleed Almehza` with the registered establishment name once the
